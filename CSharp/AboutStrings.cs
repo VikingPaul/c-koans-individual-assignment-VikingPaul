@@ -63,9 +63,7 @@ namespace DotNetKoans.CSharp
 am a
 broken line";
             Assert.Equal(18, verbatimString.Length);
-            var literalString = @"I
-am a
-broken line";
+            var literalString = "I\nam a\nbroken line";
             Assert.Equal(literalString, verbatimString);
         }
 

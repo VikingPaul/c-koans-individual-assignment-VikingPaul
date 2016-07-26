@@ -48,8 +48,8 @@ namespace DotNetKoans.CSharp
         [Koan(5)]
         public void AWayNotToCheckThatAnObjectIsNull()
         {
-            object obj = 5;
-            Assert.True(obj.Equals(5));
+            object obj = 1;
+            Assert.True(obj.Equals(1));
         }
     }
 }
